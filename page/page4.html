@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE4</title>
+</head>
+
+<body>
+    <h1>PAGE4</h1>
+    <h2> Атрибут tabindex </h2>
+    <hr>
+    <p>Атрибут <strong>tabindex</strong> устанавливает порядок получения фокуса при переходе между элементами с помощью
+        клавиши <b>Tab</b> . Переход происходит от меньшего значения к большему, например от 1 к 2, затем к 3 и так
+        далее. При этом строгая последовательность не важна, допускается пропускать какие-то числа и начинать с любой
+        цифры. Если значения tabindex у элементов совпадают, тогда учитывается их порядок появления в коде.
+        Заблокированные элементы (у которых установлен атрибут disabled) не участвуют в переходе и <strong> <em>фокус не
+                получают</em></strong> .</p>
+    <p>Переход к элементам, у которых не задан атрибут <strong>tabindex</strong> или его значение равно 0, происходит
+        после всех «нумерованных» элементов в том порядке, как они указаны в коде.</p>
+    <hr>
+    <p> <strong> Нажмите кнопку Tab для перехода между элементами </strong></p>
+    <p><button>Шестой</button></p>
+    <p><button>Седьмой</button></p>
+    <p><button tabindex="5">Пятый</button></p>
+    <p><button tabindex="1">Первый</button></p>
+    <p><button tabindex="3">Третий</button></p>
+    <p><button tabindex="2">Второй</button></p>
+    <p><button tabindex="4">Четвертый</button></p>
+    <hr>
+    <a href="../index.html">index</a>
+    <a href="page1.html">page1</a>
+    <a href="page2.html">page2</a>
+    <a href="page3.html">page3</a>
+    <a href="page4.html">page4</a>
+    <a href="page5.html">page5</a>
+    <hr>
+</body>
+
+</html>
